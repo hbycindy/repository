@@ -1,0 +1,20 @@
+//定义模块的配置
+requirejs.config({
+	baseUrl:'js/lib',
+	paths:{
+		app:'../app',
+		myutil:'mytools',
+		myshop:"shoplist"
+	},
+	shim:{
+		'myutil':{
+			exports:'createXHR'
+		},
+		'myshop':{
+			exports:'move'
+		}
+	}
+})
+define(['myutil','app/constants','app/shoplist','app/click','app/cintylist'],(myutil)=>{
+// console.log(myutil);
+})

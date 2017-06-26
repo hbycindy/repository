@@ -4,7 +4,7 @@
 @description 工具库
 */
 
-(function(self){
+// (function(self){
 	//创建xhr对象，
 	function createXHR(){
 		if(typeof XMLHttpRequest!="undefined"){
@@ -37,4 +37,4 @@
 	o.createXHR=createXHR;//把方法添加到对象中
 	o.dy=print;
 	self.cohenLee=o; //直接在window中读取
-})(window)
+// })(window)

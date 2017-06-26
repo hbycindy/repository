@@ -1,20 +1,16 @@
 {
-<<<<<<< HEAD
   "name": "new",
-=======
-  "name": "mygit",
->>>>>>> 6f22fe925bec81d434449fc0f9039a9abd28edfe
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.9",
+    "express": "^4.15.3",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
@@ -22,15 +18,8 @@
     "gulp-imagemin": "^3.2.0",
     "gulp-less": "^3.3.0",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.1.2"
-=======
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-livereload": "^3.8.1",
-    "gulp-webserver": "^0.9.1"
->>>>>>> 6f22fe925bec81d434449fc0f9039a9abd28edfe
+    "gulp-uglify": "^2.1.2",
+    "mime": "^1.3.6",
+    "natives": "^1.1.0"
   }
 }
